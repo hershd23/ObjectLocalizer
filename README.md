@@ -15,10 +15,23 @@ Use the image names in the CSV files in the repository to access the images.
 
 ## HOW TO RUN
 
+NOTE: If running natively on your machine set the path to the directory where the images are stored.
+
 Run the cells in the DatMan.ipynb file. This file takes 3500 images from the training dataset and stores it as a .np file.
 Use this file in the FChal2.ipynb file, to train the model and save the model.
 Using this saved model, generate a .csv file using the TestGenerator.ipynb.
 
 In order to check your predictions on the images itself, run the designated cells in the FChal2.ipynb file.
 
-The code, in particular was tested in the steps given above
+The code, in particular was tested in the steps given above. To run a train and test generator based model (would run faster natively in your machines but slower on Google Colab.
+
+## Model
+
+In the given problem, the Resnet18 model has been used where the input is an array of 244x244x3 numpy array and we map it to 4 output cells, each denoting the coordinates (x, y, width, height) of the bounding box.
+
+## Reference
+The model is inspired by:- https://arxiv.org/pdf/1512.03385.pdf
+
+## Author
+
+Hersh Dhillon
