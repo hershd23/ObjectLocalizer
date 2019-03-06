@@ -23,7 +23,7 @@ Using this saved model, generate a .csv file using the TestGenerator.ipynb.
 
 In order to check your predictions on the images itself, run the designated cells in the FChal2.ipynb file.
 
-The code, in particular was tested in the steps given above. To run a train and test generator based model (would run faster natively in your machines but slower on Google Colab.
+The code, in particular was tested in the steps given above. To run a train and test generator based model (would run faster natively in your machines but slower on Google Colab).
 
 ## Model
 
