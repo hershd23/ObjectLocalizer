@@ -12,3 +12,13 @@ Use the image names in the CSV files in the repository to access the images.
 
 ## Example
 ![alt text](173.png)
+
+## HOW TO RUN
+
+Run the cells in the DatMan.ipynb file. This file takes 3500 images from the training dataset and stores it as a .np file.
+Use this file in the FChal2.ipynb file, to train the model and save the model.
+Using this saved model, generate a .csv file using the TestGenerator.ipynb.
+
+In order to check your predictions on the images itself, run the designated cells in the FChal2.ipynb file.
+
+The code, in particular was tested in the steps given above
