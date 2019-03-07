@@ -34,4 +34,4 @@ The model is inspired by:- https://arxiv.org/pdf/1512.03385.pdf
 
 ## Author
 
-Hersh Dhillon
+Hersh Dhillon, Harshit Malik, Shreekanth Ajith
