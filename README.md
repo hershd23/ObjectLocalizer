@@ -27,7 +27,7 @@ The code, in particular was tested in the steps given above. To run a train and 
 
 ## Model
 
-In the given problem, the Resnet18 model has been used where the input is an array of 244x244x3 numpy array and we map it to 4 output cells, each denoting the coordinates (x, y, width, height) of the bounding box.
+In the given problem, the Resnet-5 model has been used where the input is an array of 244x244x3 numpy array and we map it to 4 output cells, each denoting the coordinates (x, y, width, height) of the bounding box.
 
 ## Reference
 The model is inspired by:- https://arxiv.org/pdf/1512.03385.pdf
